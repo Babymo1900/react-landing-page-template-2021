@@ -30,7 +30,9 @@ const Product = () => {
             >
               {firstItem?.title}
             </h3>
-            <p className={`text-gray-600`}>{firstItem?.description}</p>
+            <p className={`text-gray-600 mt-5`}>{firstItem?.description}</p>
+            <p className={`text-gray-600 mt-5`}>{firstItem?.description2}</p>
+            <p className={`text-gray-600 mt-5`}>{firstItem?.description3}</p>
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
@@ -55,7 +57,15 @@ const Product = () => {
               >
                 {secondItem?.title}
               </h3>
-              <p className={`text-gray-600 mb-8`}>{secondItem?.description}</p>
+              <p className={`text-gray-600 mb-8 mt-5`}>
+                {secondItem?.description}
+              </p>
+              <p className={`text-gray-600 mb-8 mt-5`}>
+                {secondItem?.description2}
+              </p>
+              <p className={`text-gray-600 mb-8 mt-5`}>
+                {secondItem?.description3}
+              </p>
             </div>
           </div>
         </div>
